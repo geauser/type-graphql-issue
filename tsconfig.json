@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "module": "Node16",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "lib": ["esnext", "esnext.asynciterable"],
+  },
+  "include": ["**/*.ts"]
+}
